@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up form</title>
+</head>
+<style>
+html {
+  background: url(image/nature.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+body { 
+  color: black; 
+  }
+
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=phone], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=gender], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=dob], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=color], select {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=gohome] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+  <h1 style="text-align:center"> SIGN UP FORUM</h1>
+  <h3 style="text-align:center">Please fill in the details below</h1>
+  <div>
+	<form>
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname">
+
+		<label for="password">Password</label>
+	    <input type="password" id="password" name="password">
+
+	    <label for="email">Email Id</label>
+	    <input type="email" id="email" name="email"><br>
+
+	    <label for="dob">Date Of Birth</label>
+	    <input type="Date" name="dob"><br>
+        
+        <label for="phone">Contact Number</label>
+	    <input type="phone" id="phone" name="phone"><br>
+
+        <label for="salary">Salary</label>
+             <select id="salary" name="salary">
+                   <option value="25000">25000</option>
+                   <option value="30000">30000</option>
+                   <option value="40000">40000</option>
+            </select><br>
+        <label for="gender">Gender</label><br>
+        <label for="gender">Male</label>
+        <input type="radio" name="Gender" value="Male">
+         <label for="gender">Female</label>
+        <input type="radio" name="Gender" value="Female"><br><br>
+
+        <label for="color">Color</label>
+        <input type="color" name="color1"></input><br>
+
+
+      <input type="gohome" style="text-align: center"value="Gohome" onclick="window.location.href='my.html';">
+      <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+
+  
+  </form>
+</div>
+</body>
+</html>
