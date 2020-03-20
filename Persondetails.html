@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OBJECTS!!!</title>
+</head>
+<script type="text/javascript">
+	var Person=new Object();
+	Person.name="vaishnavi";
+	Person.age=22;
+	Person.position="Traniee-software";
+	Person.salaryperday=800;
+
+	Person.calculatesal=function()
+	{
+		return((Person.salaryperday*30)*12);
+	};
+   Person.displayinfo=function()
+   {
+   	 document.write("Person name:"+Person.name+"<br/>");
+   	 document.write("Person age:"+Person.age+"<br/>");
+   	 document.write("Person position:"+Person.position+"<br/>");
+   	 document.write("Person salary per day:"+Person.salaryperday+"<br/>");
+   	  var sal=Person.calculatesal();
+   	 document.write("Person salary :"+sal+"<br/>");
+   	
+   };
+  Person.displayinfo();
+	</script>
+<body>
+
+</body>
+</html>
